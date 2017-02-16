@@ -1,0 +1,162 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DecodingError"
+- "EncodingError"
+- "=="
+- "=="
+provides-nominal:
+- "O13SwiftProtobuf13DecodingError"
+- "O13SwiftProtobuf13EncodingError"
+provides-member:
+- ["O13SwiftProtobuf13DecodingError", ""]
+- ["O13SwiftProtobuf13EncodingError", ""]
+depends-top-level:
+- "=="
+- "DecodingError"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "EncodingError"
+depends-member:
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["O13SwiftProtobuf13DecodingError", "=="]
+- ["O13SwiftProtobuf13DecodingError", "DuplicatedOneOf"]
+- ["O13SwiftProtobuf13DecodingError", "_code"]
+- ["O13SwiftProtobuf13DecodingError", "_domain"]
+- ["O13SwiftProtobuf13DecodingError", "_toAnyHashable"]
+- ["O13SwiftProtobuf13DecodingError", "_userInfo"]
+- ["O13SwiftProtobuf13DecodingError", "deinit"]
+- ["O13SwiftProtobuf13DecodingError", "duplicatedOneOf"]
+- ["O13SwiftProtobuf13DecodingError", "failure"]
+- ["O13SwiftProtobuf13DecodingError", "fieldMaskConversion"]
+- ["O13SwiftProtobuf13DecodingError", "hashValue"]
+- ["O13SwiftProtobuf13DecodingError", "invalidUTF8"]
+- ["O13SwiftProtobuf13DecodingError", "malformedAnyField"]
+- ["O13SwiftProtobuf13DecodingError", "malformedJSON"]
+- ["O13SwiftProtobuf13DecodingError", "malformedJSONNumber"]
+- ["O13SwiftProtobuf13DecodingError", "malformedJSONTimestamp"]
+- ["O13SwiftProtobuf13DecodingError", "malformedProtobuf"]
+- ["O13SwiftProtobuf13DecodingError", "malformedText"]
+- ["O13SwiftProtobuf13DecodingError", "malformedTextNumber"]
+- ["O13SwiftProtobuf13DecodingError", "missingFieldNames"]
+- ["O13SwiftProtobuf13DecodingError", "schemaMismatch"]
+- ["O13SwiftProtobuf13DecodingError", "trailingGarbage"]
+- ["O13SwiftProtobuf13DecodingError", "truncatedInput"]
+- ["O13SwiftProtobuf13DecodingError", "unknownField"]
+- ["O13SwiftProtobuf13DecodingError", "unrecognizedEnumValue"]
+- ["O13SwiftProtobuf13EncodingError", "=="]
+- ["O13SwiftProtobuf13EncodingError", "_code"]
+- ["O13SwiftProtobuf13EncodingError", "_domain"]
+- ["O13SwiftProtobuf13EncodingError", "_toAnyHashable"]
+- ["O13SwiftProtobuf13EncodingError", "_userInfo"]
+- ["O13SwiftProtobuf13EncodingError", "anyTranscodeFailure"]
+- ["O13SwiftProtobuf13EncodingError", "deinit"]
+- ["O13SwiftProtobuf13EncodingError", "durationJSONRange"]
+- ["O13SwiftProtobuf13EncodingError", "failure"]
+- ["O13SwiftProtobuf13EncodingError", "fieldMaskConversion"]
+- ["O13SwiftProtobuf13EncodingError", "hashValue"]
+- ["O13SwiftProtobuf13EncodingError", "missingFieldNames"]
+- ["O13SwiftProtobuf13EncodingError", "timestampJSONRange"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "hashValue"]
+- ["Ps5Error", ""]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["P10Foundation13_BitShiftable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["P10Foundation12_IntegerLike", "hashValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "hashValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "hashValue"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "O13SwiftProtobuf13DecodingError"
+- "O13SwiftProtobuf13EncodingError"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps10MirrorPath"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "P10Foundation13_BitShiftable"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/DispatchShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "8bff919a47cab79747ebcafe4f08642f"

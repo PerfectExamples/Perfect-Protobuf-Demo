@@ -1,0 +1,298 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProtobufEncodingVisitor"
+provides-nominal:
+- "C13SwiftProtobuf23ProtobufEncodingVisitor"
+provides-member:
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", ""]
+depends-top-level:
+- !private "FloatLiteralType"
+- "UInt8"
+- "ProtobufEncodingVisitor"
+- !private "+="
+- "MapKeyType"
+- "Int"
+- "ProtobufMap"
+- "Data"
+- !private "<<"
+- !private "Varint"
+- "Visitor"
+- "ProtobufEncoder"
+- "Hashable"
+- !private "UInt32"
+- "Message"
+- "AssignmentPrecedence"
+- "FieldType"
+- "UnsafeMutablePointer"
+- "MapValueType"
+- !private "+"
+- !private "IntegerLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "ProtobufEncoder"]
+- !private ["Ps9AnyObject", "UInt32"]
+- !private ["Ps9AnyObject", "Varint"]
+- !private ["Ps9AnyObject", "encoder"]
+- ["Ps9AnyObject", "visitMapField"]
+- ["Ps9AnyObject", "visitPackedField"]
+- ["Ps9AnyObject", "visitRepeatedField"]
+- ["Ps9AnyObject", "visitRepeatedGroupField"]
+- ["Ps9AnyObject", "visitRepeatedMessageField"]
+- ["Ps9AnyObject", "visitSingularField"]
+- ["Ps9AnyObject", "visitSingularGroupField"]
+- ["Ps9AnyObject", "visitSingularMessageField"]
+- ["Ps9AnyObject", "visitUnknown"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "protobufWireFormat"]
+- !private ["Ps28CustomDebugStringConvertible", "serializeProtobuf"]
+- !private ["Ps28CustomDebugStringConvertible", "traverse"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["V10Foundation4Data", "deinit"]
+- !private ["Vs10Dictionary", "Iterator"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs18DictionaryIterator", "Element"]
+- !private ["Ps9Equatable", "endGroup"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lengthDelimited"]
+- !private ["Ps9Equatable", "startGroup"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["P13SwiftProtobuf9FieldType", "BaseType"]
+- !private ["P13SwiftProtobuf9FieldType", "encodedSizeWithoutTag"]
+- !private ["P13SwiftProtobuf9FieldType", "protobufWireFormat"]
+- !private ["P13SwiftProtobuf9FieldType", "serializeProtobufValue"]
+- !private ["Ps8Hashable", "endGroup"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lengthDelimited"]
+- !private ["Ps8Hashable", "startGroup"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["P13SwiftProtobuf21JSONIntegerConverting", "init"]
+- ["P13SwiftProtobuf10MapKeyType", "BaseType"]
+- !private ["P13SwiftProtobuf10MapKeyType", "encodedSizeWithoutTag"]
+- !private ["P13SwiftProtobuf10MapKeyType", "protobufWireFormat"]
+- !private ["P13SwiftProtobuf10MapKeyType", "serializeProtobufValue"]
+- ["P13SwiftProtobuf12MapValueType", "BaseType"]
+- !private ["P13SwiftProtobuf12MapValueType", "encodedSizeWithoutTag"]
+- !private ["P13SwiftProtobuf12MapValueType", "protobufWireFormat"]
+- !private ["P13SwiftProtobuf12MapValueType", "serializeProtobufValue"]
+- !private ["P13SwiftProtobuf7Message", "protobufWireFormat"]
+- !private ["P13SwiftProtobuf7Message", "serializeProtobuf"]
+- !private ["P13SwiftProtobuf7Message", "traverse"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["V13SwiftProtobuf15ProtobufEncoder", "appendUnknown"]
+- ["V13SwiftProtobuf15ProtobufEncoder", "deinit"]
+- !private ["V13SwiftProtobuf15ProtobufEncoder", "init"]
+- !private ["V13SwiftProtobuf15ProtobufEncoder", "putBytesValue"]
+- !private ["V13SwiftProtobuf15ProtobufEncoder", "putVarInt"]
+- !private ["V13SwiftProtobuf15ProtobufEncoder", "startField"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "Data"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "FieldType"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "Hashable"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "Int"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "MapKeyType"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "MapValueType"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "Message"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "ProtobufEncoder"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "ProtobufMap"]
+- !private ["C13SwiftProtobuf23ProtobufEncodingVisitor", "UInt32"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "UInt8"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "UnsafeMutablePointer"]
+- !private ["C13SwiftProtobuf23ProtobufEncodingVisitor", "Varint"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "deinit"]
+- !private ["C13SwiftProtobuf23ProtobufEncodingVisitor", "encoder"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "init"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "visitMapField"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "visitPackedField"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "visitRepeatedField"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "visitRepeatedGroupField"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "visitRepeatedMessageField"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "visitSingularField"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "visitSingularGroupField"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "visitSingularMessageField"]
+- ["C13SwiftProtobuf23ProtobufEncodingVisitor", "visitUnknown"]
+- ["V13SwiftProtobuf11ProtobufMap", "BaseType"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps16RawRepresentable", "endGroup"]
+- !private ["Ps16RawRepresentable", "lengthDelimited"]
+- !private ["Ps16RawRepresentable", "startGroup"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps10Strideable", "init"]
+- ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt32", "init"]
+- ["Sp", "deinit"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["O13SwiftProtobuf6Varint", "encodedSize"]
+- !private ["P13SwiftProtobuf7Visitor", "ProtobufEncoder"]
+- !private ["P13SwiftProtobuf7Visitor", "UInt32"]
+- !private ["P13SwiftProtobuf7Visitor", "Varint"]
+- !private ["P13SwiftProtobuf7Visitor", "encoder"]
+- ["P13SwiftProtobuf7Visitor", "visitMapField"]
+- ["P13SwiftProtobuf7Visitor", "visitPackedField"]
+- ["P13SwiftProtobuf7Visitor", "visitRepeatedField"]
+- ["P13SwiftProtobuf7Visitor", "visitRepeatedGroupField"]
+- ["P13SwiftProtobuf7Visitor", "visitRepeatedMessageField"]
+- ["P13SwiftProtobuf7Visitor", "visitSingularField"]
+- ["P13SwiftProtobuf7Visitor", "visitSingularGroupField"]
+- ["P13SwiftProtobuf7Visitor", "visitSingularMessageField"]
+- ["P13SwiftProtobuf7Visitor", "visitUnknown"]
+- ["P13SwiftProtobuf7Visitor", ""]
+- ["O13SwiftProtobuf10WireFormat", "deinit"]
+- !private ["O13SwiftProtobuf10WireFormat", "endGroup"]
+- !private ["O13SwiftProtobuf10WireFormat", "lengthDelimited"]
+- !private ["O13SwiftProtobuf10WireFormat", "startGroup"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["P10Foundation13_BitShiftable", "init"]
+- !private ["P10Foundation12_CFBridgable", "Iterator"]
+- !private ["P10Foundation12_CFBridgable", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "endGroup"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lengthDelimited"]
+- !private ["Ps9_Hashable", "startGroup"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["P10Foundation12_IntegerLike", "init"]
+- !private ["P10Foundation12_NSBridgable", "Iterator"]
+- !private ["P10Foundation12_NSBridgable", "_Element"]
+- !private ["P10Foundation17_ObjectBridgeable", "Iterator"]
+- !private ["P10Foundation17_ObjectBridgeable", "_Element"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "Iterator"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_Element"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "Vs10Dictionary"
+- !private "Vs18DictionaryIterator"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "P13SwiftProtobuf9FieldType"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "P13SwiftProtobuf21JSONIntegerConverting"
+- "P13SwiftProtobuf10MapKeyType"
+- "P13SwiftProtobuf12MapValueType"
+- !private "P13SwiftProtobuf7Message"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "V13SwiftProtobuf15ProtobufEncoder"
+- "C13SwiftProtobuf23ProtobufEncodingVisitor"
+- "V13SwiftProtobuf11ProtobufMap"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps10Strideable"
+- "Vs6UInt32"
+- "Sp"
+- !private "Ps15UnsignedInteger"
+- !private "O13SwiftProtobuf6Varint"
+- "P13SwiftProtobuf7Visitor"
+- "O13SwiftProtobuf10WireFormat"
+- !private "Ps14_ArrayProtocol"
+- !private "P10Foundation13_BitShiftable"
+- !private "P10Foundation12_CFBridgable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "P10Foundation12_NSBridgable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/DispatchShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "7b90bf082206e436c0637d850189b987"

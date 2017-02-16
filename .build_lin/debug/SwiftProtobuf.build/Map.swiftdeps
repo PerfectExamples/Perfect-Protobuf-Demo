@@ -1,0 +1,53 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProtobufMap"
+provides-nominal:
+- "V13SwiftProtobuf11ProtobufMap"
+provides-member:
+- ["V13SwiftProtobuf11ProtobufMap", ""]
+depends-top-level:
+- "Hashable"
+- "Dictionary"
+- "ProtobufMap"
+- "MapKeyType"
+- "MapValueType"
+depends-member:
+- ["P13SwiftProtobuf9FieldType", "BaseType"]
+- ["P13SwiftProtobuf10MapKeyType", "BaseType"]
+- ["P13SwiftProtobuf12MapValueType", "BaseType"]
+- ["V13SwiftProtobuf11ProtobufMap", "BaseType"]
+- ["V13SwiftProtobuf11ProtobufMap", "Dictionary"]
+- ["V13SwiftProtobuf11ProtobufMap", "Key"]
+- ["V13SwiftProtobuf11ProtobufMap", "KeyType"]
+- ["V13SwiftProtobuf11ProtobufMap", "Value"]
+- ["V13SwiftProtobuf11ProtobufMap", "ValueType"]
+- ["V13SwiftProtobuf11ProtobufMap", "init"]
+depends-nominal:
+- "P13SwiftProtobuf9FieldType"
+- "P13SwiftProtobuf10MapKeyType"
+- "P13SwiftProtobuf12MapValueType"
+- "V13SwiftProtobuf11ProtobufMap"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/DispatchShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "4702c771a414c893105a9a9ab0394539"

@@ -1,0 +1,114 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MessageExtensionBase"
+- "MessageExtension"
+provides-nominal:
+- "P13SwiftProtobuf20MessageExtensionBase"
+- "C13SwiftProtobuf16MessageExtension"
+provides-member:
+- ["P13SwiftProtobuf20MessageExtensionBase", ""]
+- ["C13SwiftProtobuf16MessageExtension", ""]
+depends-top-level:
+- "Message"
+- "ExtensionField"
+- "AnyExtensionField"
+- "MessageExtensionBase"
+- "FieldNameMap"
+- "Int"
+- "MessageExtension"
+- "AssignmentPrecedence"
+depends-member:
+- ["P13SwiftProtobuf17AnyExtensionField", "ValueType"]
+- !private ["P13SwiftProtobuf17AnyExtensionField", "init"]
+- !private ["P13SwiftProtobuf17AnyExtensionField", "value"]
+- !private ["Ps9AnyObject", "FieldType"]
+- !private ["Ps9AnyObject", "MessageType"]
+- !private ["Ps9AnyObject", "defaultValue"]
+- ["Ps9AnyObject", "fieldNames"]
+- ["Ps9AnyObject", "messageType"]
+- ["Ps9AnyObject", "newField"]
+- ["Ps9AnyObject", "protoFieldNumber"]
+- ["Ps9AnyObject", ""]
+- ["Ps28CustomDebugStringConvertible", "ValueType"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- ["Ps9Equatable", "ValueType"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "value"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Names"]
+- ["P13SwiftProtobuf14ExtensionField", "ValueType"]
+- !private ["P13SwiftProtobuf14ExtensionField", "init"]
+- !private ["P13SwiftProtobuf14ExtensionField", "value"]
+- ["V13SwiftProtobuf12FieldNameMap", "Names"]
+- ["Ps8Hashable", "ValueType"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "value"]
+- ["Si", "deinit"]
+- ["C13SwiftProtobuf16MessageExtension", "AnyExtensionField"]
+- ["C13SwiftProtobuf16MessageExtension", "FieldNameMap"]
+- ["C13SwiftProtobuf16MessageExtension", "FieldType"]
+- ["C13SwiftProtobuf16MessageExtension", "Int"]
+- ["C13SwiftProtobuf16MessageExtension", "Message"]
+- !private ["C13SwiftProtobuf16MessageExtension", "MessageType"]
+- ["C13SwiftProtobuf16MessageExtension", "defaultValue"]
+- ["C13SwiftProtobuf16MessageExtension", "deinit"]
+- ["C13SwiftProtobuf16MessageExtension", "fieldNames"]
+- ["C13SwiftProtobuf16MessageExtension", "init"]
+- ["C13SwiftProtobuf16MessageExtension", "messageType"]
+- ["C13SwiftProtobuf16MessageExtension", "newField"]
+- ["C13SwiftProtobuf16MessageExtension", "protoFieldNumber"]
+- ["C13SwiftProtobuf16MessageExtension", "set"]
+- ["P13SwiftProtobuf20MessageExtensionBase", "AnyExtensionField"]
+- ["P13SwiftProtobuf20MessageExtensionBase", "FieldNameMap"]
+- !private ["P13SwiftProtobuf20MessageExtensionBase", "FieldType"]
+- ["P13SwiftProtobuf20MessageExtensionBase", "Int"]
+- ["P13SwiftProtobuf20MessageExtensionBase", "Message"]
+- !private ["P13SwiftProtobuf20MessageExtensionBase", "MessageType"]
+- !private ["P13SwiftProtobuf20MessageExtensionBase", "defaultValue"]
+- ["P13SwiftProtobuf20MessageExtensionBase", "fieldNames"]
+- ["P13SwiftProtobuf20MessageExtensionBase", "messageType"]
+- ["P13SwiftProtobuf20MessageExtensionBase", "newField"]
+- ["P13SwiftProtobuf20MessageExtensionBase", "protoFieldNumber"]
+- ["P13SwiftProtobuf20MessageExtensionBase", ""]
+- ["OV13SwiftProtobuf12FieldNameMap5Names", "deinit"]
+- ["Ps9_Hashable", "ValueType"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "value"]
+depends-nominal:
+- "P13SwiftProtobuf17AnyExtensionField"
+- "Ps9AnyObject"
+- "Ps28CustomDebugStringConvertible"
+- "Ps9Equatable"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "P13SwiftProtobuf14ExtensionField"
+- "V13SwiftProtobuf12FieldNameMap"
+- "Ps8Hashable"
+- "Si"
+- "C13SwiftProtobuf16MessageExtension"
+- "P13SwiftProtobuf20MessageExtensionBase"
+- "OV13SwiftProtobuf12FieldNameMap5Names"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/DispatchShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "e786de3e6c8b6f2bdc7c409c69e56944"

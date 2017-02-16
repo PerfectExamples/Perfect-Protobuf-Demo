@@ -1,0 +1,426 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FieldType"
+- "MapKeyType"
+- "MapValueType"
+- "ProtobufFloat"
+- "ProtobufDouble"
+- "ProtobufInt32"
+- "ProtobufInt64"
+- "ProtobufUInt32"
+- "ProtobufUInt64"
+- "ProtobufSInt32"
+- "ProtobufSInt64"
+- "ProtobufFixed32"
+- "ProtobufFixed64"
+- "ProtobufSFixed32"
+- "ProtobufSFixed64"
+- "ProtobufBool"
+- "ProtobufString"
+- "ProtobufBytes"
+provides-nominal:
+- "P13SwiftProtobuf9FieldType"
+- "P13SwiftProtobuf10MapKeyType"
+- "P13SwiftProtobuf12MapValueType"
+- "V13SwiftProtobuf13ProtobufFloat"
+- "V13SwiftProtobuf14ProtobufDouble"
+- "V13SwiftProtobuf13ProtobufInt32"
+- "V13SwiftProtobuf13ProtobufInt64"
+- "V13SwiftProtobuf14ProtobufUInt32"
+- "V13SwiftProtobuf14ProtobufUInt64"
+- "V13SwiftProtobuf14ProtobufSInt32"
+- "V13SwiftProtobuf14ProtobufSInt64"
+- "V13SwiftProtobuf15ProtobufFixed32"
+- "V13SwiftProtobuf15ProtobufFixed64"
+- "V13SwiftProtobuf16ProtobufSFixed32"
+- "V13SwiftProtobuf16ProtobufSFixed64"
+- "V13SwiftProtobuf12ProtobufBool"
+- "V13SwiftProtobuf14ProtobufString"
+- "V13SwiftProtobuf13ProtobufBytes"
+provides-member:
+- ["P13SwiftProtobuf9FieldType", ""]
+- ["P13SwiftProtobuf10MapKeyType", ""]
+- ["P13SwiftProtobuf12MapValueType", ""]
+- ["V13SwiftProtobuf13ProtobufFloat", ""]
+- ["V13SwiftProtobuf14ProtobufDouble", ""]
+- ["V13SwiftProtobuf13ProtobufInt32", ""]
+- ["V13SwiftProtobuf13ProtobufInt64", ""]
+- ["V13SwiftProtobuf14ProtobufUInt32", ""]
+- ["V13SwiftProtobuf14ProtobufUInt64", ""]
+- ["V13SwiftProtobuf14ProtobufSInt32", ""]
+- ["V13SwiftProtobuf14ProtobufSInt64", ""]
+- ["V13SwiftProtobuf15ProtobufFixed32", ""]
+- ["V13SwiftProtobuf15ProtobufFixed64", ""]
+- ["V13SwiftProtobuf16ProtobufSFixed32", ""]
+- ["V13SwiftProtobuf16ProtobufSFixed64", ""]
+- ["V13SwiftProtobuf12ProtobufBool", ""]
+- ["V13SwiftProtobuf14ProtobufString", ""]
+- ["V13SwiftProtobuf13ProtobufBytes", ""]
+depends-top-level:
+- "UInt64"
+- "ProtobufString"
+- "ProtobufInt64"
+- "ProtobufSInt32"
+- "Int"
+- "MapValueType"
+- "JSONToken"
+- "String"
+- "Data"
+- "Float"
+- "ProtobufBytes"
+- "ProtobufInt32"
+- "ProtobufUInt64"
+- "ProtobufSFixed32"
+- "ProtobufFixed64"
+- "Int64"
+- "MapKeyType"
+- "UInt32"
+- "JSONDecoder"
+- "Hashable"
+- "TextScanner"
+- "JSONEncoder"
+- "FieldType"
+- "ProtobufDouble"
+- "WireFormat"
+- "ProtobufUInt32"
+- "ProtobufFixed32"
+- "ProtobufSFixed64"
+- "Int32"
+- "Bool"
+- "ProtobufDecoder"
+- "ProtobufSInt64"
+- "ProtobufFloat"
+- "ProtobufBool"
+- "TextEncoder"
+- "ProtobufEncoder"
+- "Double"
+depends-member:
+- ["P13SwiftProtobuf9FieldType", "BaseType"]
+- ["P13SwiftProtobuf9FieldType", "Bool"]
+- ["P13SwiftProtobuf9FieldType", "Hashable"]
+- ["P13SwiftProtobuf9FieldType", "Int"]
+- ["P13SwiftProtobuf9FieldType", "JSONDecoder"]
+- ["P13SwiftProtobuf9FieldType", "JSONEncoder"]
+- ["P13SwiftProtobuf9FieldType", "JSONToken"]
+- ["P13SwiftProtobuf9FieldType", "ProtobufDecoder"]
+- ["P13SwiftProtobuf9FieldType", "ProtobufEncoder"]
+- ["P13SwiftProtobuf9FieldType", "Self"]
+- ["P13SwiftProtobuf9FieldType", "TextEncoder"]
+- ["P13SwiftProtobuf9FieldType", "TextScanner"]
+- ["P13SwiftProtobuf9FieldType", "WireFormat"]
+- ["P13SwiftProtobuf9FieldType", "decodeJSONMapKey"]
+- ["P13SwiftProtobuf9FieldType", "decodeProtobufMapValue"]
+- ["P13SwiftProtobuf9FieldType", "encodedSizeWithoutTag"]
+- ["P13SwiftProtobuf9FieldType", "protobufWireFormat"]
+- ["P13SwiftProtobuf9FieldType", "serializeJSONMapKey"]
+- ["P13SwiftProtobuf9FieldType", "serializeJSONValue"]
+- ["P13SwiftProtobuf9FieldType", "serializeProtobufValue"]
+- ["P13SwiftProtobuf9FieldType", "serializeTextValue"]
+- ["P13SwiftProtobuf9FieldType", "setFromJSON"]
+- ["P13SwiftProtobuf9FieldType", "setFromProtobuf"]
+- ["P13SwiftProtobuf9FieldType", "setFromText"]
+- ["P13SwiftProtobuf9FieldType", ""]
+- ["P13SwiftProtobuf10MapKeyType", "BaseType"]
+- ["P13SwiftProtobuf10MapKeyType", "JSONEncoder"]
+- ["P13SwiftProtobuf10MapKeyType", "JSONToken"]
+- ["P13SwiftProtobuf10MapKeyType", "decodeJSONMapKey"]
+- ["P13SwiftProtobuf10MapKeyType", "decodeProtobufMapValue"]
+- ["P13SwiftProtobuf10MapKeyType", "encodedSizeWithoutTag"]
+- ["P13SwiftProtobuf10MapKeyType", "protobufWireFormat"]
+- ["P13SwiftProtobuf10MapKeyType", "serializeJSONMapKey"]
+- ["P13SwiftProtobuf10MapKeyType", "serializeJSONValue"]
+- ["P13SwiftProtobuf10MapKeyType", "serializeProtobufValue"]
+- ["P13SwiftProtobuf10MapKeyType", "serializeTextValue"]
+- ["P13SwiftProtobuf10MapKeyType", "setFromJSON"]
+- ["P13SwiftProtobuf10MapKeyType", "setFromProtobuf"]
+- ["P13SwiftProtobuf10MapKeyType", "setFromText"]
+- ["P13SwiftProtobuf10MapKeyType", ""]
+- ["P13SwiftProtobuf12MapValueType", "BaseType"]
+- ["P13SwiftProtobuf12MapValueType", "ProtobufDecoder"]
+- ["P13SwiftProtobuf12MapValueType", "decodeJSONMapKey"]
+- ["P13SwiftProtobuf12MapValueType", "decodeProtobufMapValue"]
+- ["P13SwiftProtobuf12MapValueType", "encodedSizeWithoutTag"]
+- ["P13SwiftProtobuf12MapValueType", "protobufWireFormat"]
+- ["P13SwiftProtobuf12MapValueType", "serializeJSONMapKey"]
+- ["P13SwiftProtobuf12MapValueType", "serializeJSONValue"]
+- ["P13SwiftProtobuf12MapValueType", "serializeProtobufValue"]
+- ["P13SwiftProtobuf12MapValueType", "serializeTextValue"]
+- ["P13SwiftProtobuf12MapValueType", "setFromJSON"]
+- ["P13SwiftProtobuf12MapValueType", "setFromProtobuf"]
+- ["P13SwiftProtobuf12MapValueType", "setFromText"]
+- ["P13SwiftProtobuf12MapValueType", ""]
+- ["V13SwiftProtobuf12ProtobufBool", "BaseType"]
+- ["V13SwiftProtobuf12ProtobufBool", "Bool"]
+- ["V13SwiftProtobuf12ProtobufBool", "decodeJSONMapKey"]
+- ["V13SwiftProtobuf12ProtobufBool", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf12ProtobufBool", "deinit"]
+- ["V13SwiftProtobuf12ProtobufBool", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf12ProtobufBool", "init"]
+- ["V13SwiftProtobuf12ProtobufBool", "protobufWireFormat"]
+- ["V13SwiftProtobuf12ProtobufBool", "serializeJSONMapKey"]
+- ["V13SwiftProtobuf12ProtobufBool", "serializeJSONValue"]
+- ["V13SwiftProtobuf12ProtobufBool", "serializeProtobufValue"]
+- ["V13SwiftProtobuf12ProtobufBool", "serializeTextValue"]
+- ["V13SwiftProtobuf12ProtobufBool", "setFromJSON"]
+- ["V13SwiftProtobuf12ProtobufBool", "setFromProtobuf"]
+- ["V13SwiftProtobuf12ProtobufBool", "setFromText"]
+- ["V13SwiftProtobuf13ProtobufBytes", "BaseType"]
+- ["V13SwiftProtobuf13ProtobufBytes", "Data"]
+- ["V13SwiftProtobuf13ProtobufBytes", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf13ProtobufBytes", "deinit"]
+- ["V13SwiftProtobuf13ProtobufBytes", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf13ProtobufBytes", "init"]
+- ["V13SwiftProtobuf13ProtobufBytes", "protobufWireFormat"]
+- ["V13SwiftProtobuf13ProtobufBytes", "serializeJSONValue"]
+- ["V13SwiftProtobuf13ProtobufBytes", "serializeProtobufValue"]
+- ["V13SwiftProtobuf13ProtobufBytes", "serializeTextValue"]
+- ["V13SwiftProtobuf13ProtobufBytes", "setFromJSON"]
+- ["V13SwiftProtobuf13ProtobufBytes", "setFromProtobuf"]
+- ["V13SwiftProtobuf13ProtobufBytes", "setFromText"]
+- ["V13SwiftProtobuf14ProtobufDouble", "BaseType"]
+- ["V13SwiftProtobuf14ProtobufDouble", "Double"]
+- ["V13SwiftProtobuf14ProtobufDouble", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf14ProtobufDouble", "deinit"]
+- ["V13SwiftProtobuf14ProtobufDouble", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf14ProtobufDouble", "init"]
+- ["V13SwiftProtobuf14ProtobufDouble", "protobufWireFormat"]
+- ["V13SwiftProtobuf14ProtobufDouble", "serializeJSONValue"]
+- ["V13SwiftProtobuf14ProtobufDouble", "serializeProtobufValue"]
+- ["V13SwiftProtobuf14ProtobufDouble", "serializeTextValue"]
+- ["V13SwiftProtobuf14ProtobufDouble", "setFromJSON"]
+- ["V13SwiftProtobuf14ProtobufDouble", "setFromProtobuf"]
+- ["V13SwiftProtobuf14ProtobufDouble", "setFromText"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "BaseType"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "UInt32"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "decodeJSONMapKey"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "deinit"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "init"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "protobufWireFormat"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "serializeJSONMapKey"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "serializeJSONValue"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "serializeProtobufValue"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "serializeTextValue"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "setFromJSON"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "setFromProtobuf"]
+- ["V13SwiftProtobuf15ProtobufFixed32", "setFromText"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "BaseType"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "UInt64"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "decodeJSONMapKey"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "deinit"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "init"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "protobufWireFormat"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "serializeJSONMapKey"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "serializeJSONValue"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "serializeProtobufValue"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "serializeTextValue"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "setFromJSON"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "setFromProtobuf"]
+- ["V13SwiftProtobuf15ProtobufFixed64", "setFromText"]
+- ["V13SwiftProtobuf13ProtobufFloat", "BaseType"]
+- ["V13SwiftProtobuf13ProtobufFloat", "Float"]
+- ["V13SwiftProtobuf13ProtobufFloat", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf13ProtobufFloat", "deinit"]
+- ["V13SwiftProtobuf13ProtobufFloat", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf13ProtobufFloat", "init"]
+- ["V13SwiftProtobuf13ProtobufFloat", "protobufWireFormat"]
+- ["V13SwiftProtobuf13ProtobufFloat", "serializeJSONValue"]
+- ["V13SwiftProtobuf13ProtobufFloat", "serializeProtobufValue"]
+- ["V13SwiftProtobuf13ProtobufFloat", "serializeTextValue"]
+- ["V13SwiftProtobuf13ProtobufFloat", "setFromJSON"]
+- ["V13SwiftProtobuf13ProtobufFloat", "setFromProtobuf"]
+- ["V13SwiftProtobuf13ProtobufFloat", "setFromText"]
+- ["V13SwiftProtobuf13ProtobufInt32", "BaseType"]
+- ["V13SwiftProtobuf13ProtobufInt32", "Int32"]
+- ["V13SwiftProtobuf13ProtobufInt32", "decodeJSONMapKey"]
+- ["V13SwiftProtobuf13ProtobufInt32", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf13ProtobufInt32", "deinit"]
+- ["V13SwiftProtobuf13ProtobufInt32", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf13ProtobufInt32", "init"]
+- ["V13SwiftProtobuf13ProtobufInt32", "protobufWireFormat"]
+- ["V13SwiftProtobuf13ProtobufInt32", "serializeJSONMapKey"]
+- ["V13SwiftProtobuf13ProtobufInt32", "serializeJSONValue"]
+- ["V13SwiftProtobuf13ProtobufInt32", "serializeProtobufValue"]
+- ["V13SwiftProtobuf13ProtobufInt32", "serializeTextValue"]
+- ["V13SwiftProtobuf13ProtobufInt32", "setFromJSON"]
+- ["V13SwiftProtobuf13ProtobufInt32", "setFromProtobuf"]
+- ["V13SwiftProtobuf13ProtobufInt32", "setFromText"]
+- ["V13SwiftProtobuf13ProtobufInt64", "BaseType"]
+- ["V13SwiftProtobuf13ProtobufInt64", "Int64"]
+- ["V13SwiftProtobuf13ProtobufInt64", "decodeJSONMapKey"]
+- ["V13SwiftProtobuf13ProtobufInt64", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf13ProtobufInt64", "deinit"]
+- ["V13SwiftProtobuf13ProtobufInt64", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf13ProtobufInt64", "init"]
+- ["V13SwiftProtobuf13ProtobufInt64", "protobufWireFormat"]
+- ["V13SwiftProtobuf13ProtobufInt64", "serializeJSONMapKey"]
+- ["V13SwiftProtobuf13ProtobufInt64", "serializeJSONValue"]
+- ["V13SwiftProtobuf13ProtobufInt64", "serializeProtobufValue"]
+- ["V13SwiftProtobuf13ProtobufInt64", "serializeTextValue"]
+- ["V13SwiftProtobuf13ProtobufInt64", "setFromJSON"]
+- ["V13SwiftProtobuf13ProtobufInt64", "setFromProtobuf"]
+- ["V13SwiftProtobuf13ProtobufInt64", "setFromText"]
+- ["P13SwiftProtobuf20ProtobufMapValueType", "BaseType"]
+- ["P13SwiftProtobuf20ProtobufMapValueType", "decodeJSONMapKey"]
+- ["P13SwiftProtobuf20ProtobufMapValueType", "decodeProtobufMapValue"]
+- ["P13SwiftProtobuf20ProtobufMapValueType", "encodedSizeWithoutTag"]
+- ["P13SwiftProtobuf20ProtobufMapValueType", "protobufWireFormat"]
+- ["P13SwiftProtobuf20ProtobufMapValueType", "serializeJSONMapKey"]
+- ["P13SwiftProtobuf20ProtobufMapValueType", "serializeJSONValue"]
+- ["P13SwiftProtobuf20ProtobufMapValueType", "serializeProtobufValue"]
+- ["P13SwiftProtobuf20ProtobufMapValueType", "serializeTextValue"]
+- ["P13SwiftProtobuf20ProtobufMapValueType", "setFromJSON"]
+- ["P13SwiftProtobuf20ProtobufMapValueType", "setFromProtobuf"]
+- ["P13SwiftProtobuf20ProtobufMapValueType", "setFromText"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "BaseType"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "Int32"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "decodeJSONMapKey"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "deinit"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "init"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "protobufWireFormat"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "serializeJSONMapKey"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "serializeJSONValue"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "serializeProtobufValue"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "serializeTextValue"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "setFromJSON"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "setFromProtobuf"]
+- ["V13SwiftProtobuf16ProtobufSFixed32", "setFromText"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "BaseType"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "Int64"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "decodeJSONMapKey"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "deinit"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "init"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "protobufWireFormat"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "serializeJSONMapKey"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "serializeJSONValue"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "serializeProtobufValue"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "serializeTextValue"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "setFromJSON"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "setFromProtobuf"]
+- ["V13SwiftProtobuf16ProtobufSFixed64", "setFromText"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "BaseType"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "Int32"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "decodeJSONMapKey"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "deinit"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "init"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "protobufWireFormat"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "serializeJSONMapKey"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "serializeJSONValue"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "serializeProtobufValue"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "serializeTextValue"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "setFromJSON"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "setFromProtobuf"]
+- ["V13SwiftProtobuf14ProtobufSInt32", "setFromText"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "BaseType"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "Int64"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "decodeJSONMapKey"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "deinit"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "init"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "protobufWireFormat"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "serializeJSONMapKey"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "serializeJSONValue"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "serializeProtobufValue"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "serializeTextValue"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "setFromJSON"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "setFromProtobuf"]
+- ["V13SwiftProtobuf14ProtobufSInt64", "setFromText"]
+- ["V13SwiftProtobuf14ProtobufString", "BaseType"]
+- ["V13SwiftProtobuf14ProtobufString", "String"]
+- ["V13SwiftProtobuf14ProtobufString", "decodeJSONMapKey"]
+- ["V13SwiftProtobuf14ProtobufString", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf14ProtobufString", "deinit"]
+- ["V13SwiftProtobuf14ProtobufString", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf14ProtobufString", "init"]
+- ["V13SwiftProtobuf14ProtobufString", "protobufWireFormat"]
+- ["V13SwiftProtobuf14ProtobufString", "serializeJSONMapKey"]
+- ["V13SwiftProtobuf14ProtobufString", "serializeJSONValue"]
+- ["V13SwiftProtobuf14ProtobufString", "serializeProtobufValue"]
+- ["V13SwiftProtobuf14ProtobufString", "serializeTextValue"]
+- ["V13SwiftProtobuf14ProtobufString", "setFromJSON"]
+- ["V13SwiftProtobuf14ProtobufString", "setFromProtobuf"]
+- ["V13SwiftProtobuf14ProtobufString", "setFromText"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "BaseType"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "UInt32"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "decodeJSONMapKey"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "deinit"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "init"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "protobufWireFormat"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "serializeJSONMapKey"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "serializeJSONValue"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "serializeProtobufValue"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "serializeTextValue"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "setFromJSON"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "setFromProtobuf"]
+- ["V13SwiftProtobuf14ProtobufUInt32", "setFromText"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "BaseType"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "UInt64"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "decodeJSONMapKey"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "decodeProtobufMapValue"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "deinit"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "encodedSizeWithoutTag"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "init"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "protobufWireFormat"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "serializeJSONMapKey"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "serializeJSONValue"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "serializeProtobufValue"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "serializeTextValue"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "setFromJSON"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "setFromProtobuf"]
+- ["V13SwiftProtobuf14ProtobufUInt64", "setFromText"]
+depends-nominal:
+- "P13SwiftProtobuf9FieldType"
+- "P13SwiftProtobuf10MapKeyType"
+- "P13SwiftProtobuf12MapValueType"
+- "V13SwiftProtobuf12ProtobufBool"
+- "V13SwiftProtobuf13ProtobufBytes"
+- "V13SwiftProtobuf14ProtobufDouble"
+- "V13SwiftProtobuf15ProtobufFixed32"
+- "V13SwiftProtobuf15ProtobufFixed64"
+- "V13SwiftProtobuf13ProtobufFloat"
+- "V13SwiftProtobuf13ProtobufInt32"
+- "V13SwiftProtobuf13ProtobufInt64"
+- "P13SwiftProtobuf20ProtobufMapValueType"
+- "V13SwiftProtobuf16ProtobufSFixed32"
+- "V13SwiftProtobuf16ProtobufSFixed64"
+- "V13SwiftProtobuf14ProtobufSInt32"
+- "V13SwiftProtobuf14ProtobufSInt64"
+- "V13SwiftProtobuf14ProtobufString"
+- "V13SwiftProtobuf14ProtobufUInt32"
+- "V13SwiftProtobuf14ProtobufUInt64"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/DispatchShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "7198e44a07bc5c73e28c6904ebb924ed"

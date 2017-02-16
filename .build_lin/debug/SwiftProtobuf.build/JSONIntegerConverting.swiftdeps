@@ -1,0 +1,250 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JSONIntegerConverting"
+provides-nominal:
+- "P13SwiftProtobuf21JSONIntegerConverting"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Vs6UInt32"
+- "Vs6UInt64"
+provides-member:
+- ["P13SwiftProtobuf21JSONIntegerConverting", ""]
+- ["Vs5Int32", ""]
+- ["Vs5Int64", ""]
+- ["Vs6UInt32", ""]
+- ["Vs6UInt64", ""]
+depends-top-level:
+- !private "IntegerLiteralType"
+- "Int64"
+- "UInt32"
+- !private "-"
+- !private "=="
+- !private "<"
+- "Double"
+- "String"
+- "UInt64"
+- !private "&&"
+- "Int"
+- "JSONIntegerConverting"
+- !private "FloatLiteralType"
+- "Int32"
+- !private "<<"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps16AbsoluteValuable", "rounded"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps19BinaryFloatingPoint", "rounded"]
+- !private ["Ps17BitwiseOperations", "Double"]
+- ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Double"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "rounded"]
+- !private ["Ps10Comparable", "Double"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "rounded"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "rounded"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Double"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "rounded"]
+- !private ["Ps17CustomReflectable", "Double"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "rounded"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "rounded"]
+- ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["Sd", "rounded"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "plus"]
+- !private ["Ps9Equatable", "rounded"]
+- !private ["Ps9Equatable", "towardZero"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "rounded"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Double"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "rounded"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps13FloatingPoint", "rounded"]
+- ["Os25FloatingPointRoundingRule", "deinit"]
+- !private ["Os25FloatingPointRoundingRule", "towardZero"]
+- ["Os17FloatingPointSign", "deinit"]
+- !private ["Os17FloatingPointSign", "plus"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "plus"]
+- !private ["Ps8Hashable", "rounded"]
+- !private ["Ps8Hashable", "towardZero"]
+- ["Si", "deinit"]
+- ["Vs5Int32", "Double"]
+- ["Vs5Int32", "deinit"]
+- ["Vs5Int32", "init"]
+- ["Vs5Int64", "Double"]
+- ["Vs5Int64", "deinit"]
+- ["Vs5Int64", "init"]
+- !private ["Ps7Integer", "Double"]
+- ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "Double"]
+- ["Ps17IntegerArithmetic", "init"]
+- ["P13SwiftProtobuf21JSONIntegerConverting", "Double"]
+- ["P13SwiftProtobuf21JSONIntegerConverting", "Int"]
+- ["P13SwiftProtobuf21JSONIntegerConverting", "Int64"]
+- ["P13SwiftProtobuf21JSONIntegerConverting", "String"]
+- ["P13SwiftProtobuf21JSONIntegerConverting", "UInt64"]
+- ["P13SwiftProtobuf21JSONIntegerConverting", "init"]
+- ["P13SwiftProtobuf21JSONIntegerConverting", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "rounded"]
+- !private ["Ps10MirrorPath", "Double"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps16RawRepresentable", "plus"]
+- !private ["Ps13SignedInteger", "Double"]
+- ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "Double"]
+- ["Ps12SignedNumber", "init"]
+- !private ["Ps12SignedNumber", "rounded"]
+- !private ["Ps10Strideable", "Double"]
+- ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "rounded"]
+- ["Vs6UInt32", "Double"]
+- ["Vs6UInt32", "deinit"]
+- ["Vs6UInt32", "init"]
+- ["Vs6UInt64", "Double"]
+- ["Vs6UInt64", "deinit"]
+- ["Vs6UInt64", "init"]
+- !private ["Ps15UnsignedInteger", "Double"]
+- ["Ps15UnsignedInteger", "init"]
+- !private ["P10Foundation13_BitShiftable", "Double"]
+- ["P10Foundation13_BitShiftable", "init"]
+- !private ["P10Foundation12_CFBridgable", "_getBuiltinLogicValue"]
+- !private ["Ps15_CVarArgAligned", "Double"]
+- ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps15_CVarArgAligned", "rounded"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "rounded"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "Double"]
+- ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "rounded"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Double"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "rounded"]
+- !private ["P10Foundation20_FloatArithmeticType", "init"]
+- !private ["P10Foundation20_FloatArithmeticType", "rounded"]
+- !private ["P10Foundation10_FloatLike", "init"]
+- !private ["P10Foundation10_FloatLike", "rounded"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "plus"]
+- !private ["Ps9_Hashable", "rounded"]
+- !private ["Ps9_Hashable", "towardZero"]
+- !private ["Ps14_Incrementable", "Double"]
+- ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "Double"]
+- ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "Double"]
+- ["Ps18_IntegerArithmetic", "init"]
+- !private ["P10Foundation12_IntegerLike", "Double"]
+- ["P10Foundation12_IntegerLike", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "rounded"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "rounded"]
+- !private ["Ps14_SignedInteger", "Double"]
+- ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "Double"]
+- ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "rounded"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "Ps19BinaryFloatingPoint"
+- "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps13FloatingPoint"
+- "Os25FloatingPointRoundingRule"
+- "Os17FloatingPointSign"
+- "Ps8Hashable"
+- "Si"
+- "Vs5Int32"
+- "Vs5Int64"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "P13SwiftProtobuf21JSONIntegerConverting"
+- !private "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps16RawRepresentable"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- "Vs6UInt32"
+- "Vs6UInt64"
+- "Ps15UnsignedInteger"
+- "P10Foundation13_BitShiftable"
+- !private "P10Foundation12_CFBridgable"
+- "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "P10Foundation20_FloatArithmeticType"
+- !private "P10Foundation10_FloatLike"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "P10Foundation12_IntegerLike"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/Visibility.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStdint.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/UnicodeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/SwiftStddef.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/LibcShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeStubs.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RuntimeShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/RefCount.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/HeapObject.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/GlobalObjects.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/FoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/DispatchShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/shims/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/dispatch/module.modulemap"
+- "/swift-3.0.2-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+interface-hash: "abfee3df3fc396017e0d76500ccd8c0d"

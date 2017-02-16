@@ -1,0 +1,5 @@
+module LinuxBridge {
+    umbrella header "/perfectbuild/Packages/LinuxBridge-2.0.2/LinuxBridge/include/LinuxBridge.h"
+    link "LinuxBridge"
+    export *
+}

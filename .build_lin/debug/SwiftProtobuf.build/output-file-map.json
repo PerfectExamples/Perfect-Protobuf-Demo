@@ -1,0 +1,335 @@
+{
+  "": {
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/master.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/DebugDescriptionVisitor.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/DebugDescriptionVisitor.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/DebugDescriptionVisitor.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/DebugDescriptionVisitor~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/DebugDescriptionVisitor.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Enum.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Enum.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Enum.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Enum~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Enum.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Errors.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Errors.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Errors.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Errors~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Errors.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/ExtensibleMessage.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensibleMessage.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensibleMessage.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensibleMessage~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensibleMessage.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/ExtensionFieldValueSet.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensionFieldValueSet.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensionFieldValueSet.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensionFieldValueSet~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensionFieldValueSet.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/ExtensionFields.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensionFields.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensionFields.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensionFields~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensionFields.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/ExtensionSet.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensionSet.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensionSet.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensionSet~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ExtensionSet.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/FieldDecoder.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldDecoder.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldDecoder.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldDecoder~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldDecoder.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/FieldNameMap.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldNameMap.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldNameMap.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldNameMap~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldNameMap.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/FieldTag.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldTag.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldTag.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldTag~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldTag.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/FieldTypes.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldTypes.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldTypes.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldTypes~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/FieldTypes.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Google_Protobuf_Any.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Any.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Any.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Any~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Any.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Google_Protobuf_Duration_Extensions.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Duration_Extensions.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Duration_Extensions.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Duration_Extensions~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Duration_Extensions.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Google_Protobuf_FieldMask_Extensions.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_FieldMask_Extensions.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_FieldMask_Extensions.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_FieldMask_Extensions~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_FieldMask_Extensions.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Google_Protobuf_Struct.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Struct.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Struct.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Struct~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Struct.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Google_Protobuf_Timestamp_Extensions.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Timestamp_Extensions.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Timestamp_Extensions.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Timestamp_Extensions~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Timestamp_Extensions.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Google_Protobuf_Wrappers+Extensions.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Wrappers+Extensions.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Wrappers+Extensions.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Wrappers+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Google_Protobuf_Wrappers+Extensions.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/HashVisitor.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/HashVisitor.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/HashVisitor.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/HashVisitor~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/HashVisitor.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/JSONDecoder.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONDecoder.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONDecoder.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONDecoder~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONDecoder.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/JSONEncoder.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONEncoder.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONEncoder.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONEncoder~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONEncoder.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/JSONEncodingVisitor.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONEncodingVisitor.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONEncodingVisitor.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONEncodingVisitor~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONEncodingVisitor.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/JSONIntegerConverting.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONIntegerConverting.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONIntegerConverting.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONIntegerConverting~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONIntegerConverting.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/JSONToken.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONToken.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONToken.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONToken~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONToken.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/JSONTypeAdditions.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONTypeAdditions.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONTypeAdditions.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONTypeAdditions~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/JSONTypeAdditions.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Map.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Map.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Map.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Map~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Map.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Message.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Message.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Message.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Message~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Message.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/MessageExtension.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/MessageExtension.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/MessageExtension.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/MessageExtension~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/MessageExtension.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/OneofEnum.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/OneofEnum.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/OneofEnum.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/OneofEnum~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/OneofEnum.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/ProtoNameProviding.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtoNameProviding.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtoNameProviding.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtoNameProviding~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtoNameProviding.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/ProtoNameResolvers.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtoNameResolvers.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtoNameResolvers.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtoNameResolvers~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtoNameResolvers.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/ProtobufDecoder.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufDecoder.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufDecoder.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufDecoder~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufDecoder.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/ProtobufEncoder.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufEncoder.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufEncoder.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufEncoder~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufEncoder.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/ProtobufEncodingSizeVisitor.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufEncodingSizeVisitor.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufEncodingSizeVisitor.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufEncodingSizeVisitor~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufEncodingSizeVisitor.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/ProtobufEncodingVisitor.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufEncodingVisitor.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufEncodingVisitor.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufEncodingVisitor~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufEncodingVisitor.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/ProtobufTypeAdditions.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufTypeAdditions.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufTypeAdditions.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufTypeAdditions~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ProtobufTypeAdditions.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Strings.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Strings.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Strings.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Strings~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Strings.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/TextDecoder.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextDecoder.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextDecoder.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextDecoder~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextDecoder.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/TextEncoder.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextEncoder.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextEncoder.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextEncoder~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextEncoder.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/TextEncodingVisitor.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextEncodingVisitor.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextEncodingVisitor.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextEncodingVisitor~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextEncodingVisitor.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/TextScanner.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextScanner.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextScanner.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextScanner~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextScanner.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/TextToken.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextToken.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextToken.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextToken~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextToken.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/TextTypeAdditions.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextTypeAdditions.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextTypeAdditions.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextTypeAdditions~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/TextTypeAdditions.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/UnknownStorage.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/UnknownStorage.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/UnknownStorage.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/UnknownStorage~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/UnknownStorage.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Varint.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Varint.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Varint.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Varint~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Varint.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/Visitor.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Visitor.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Visitor.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Visitor~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/Visitor.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/WireFormat.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/WireFormat.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/WireFormat.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/WireFormat~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/WireFormat.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/ZigZag.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ZigZag.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ZigZag.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ZigZag~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/ZigZag.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/api.pb.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/api.pb.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/api.pb.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/api.pb~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/api.pb.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/duration.pb.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/duration.pb.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/duration.pb.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/duration.pb~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/duration.pb.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/empty.pb.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/empty.pb.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/empty.pb.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/empty.pb~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/empty.pb.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/field_mask.pb.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/field_mask.pb.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/field_mask.pb.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/field_mask.pb~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/field_mask.pb.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/source_context.pb.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/source_context.pb.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/source_context.pb.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/source_context.pb~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/source_context.pb.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/timestamp.pb.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/timestamp.pb.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/timestamp.pb.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/timestamp.pb~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/timestamp.pb.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/type.pb.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/type.pb.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/type.pb.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/type.pb~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/type.pb.swiftdeps"
+  },
+  "/perfectbuild/Packages/SwiftProtobuf-0.9.27/Sources/SwiftProtobuf/wrappers.pb.swift": {
+    "dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/wrappers.pb.d",
+    "object": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/wrappers.pb.swift.o",
+    "swiftmodule": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/wrappers.pb~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build_lin/debug/SwiftProtobuf.build/wrappers.pb.swiftdeps"
+  }
+}
