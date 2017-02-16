@@ -1,8 +1,8 @@
-# PerfectTemplate [简体中文](README.zh_CN.md)
+# Demo: Using Google Protocol Buffers (proto/protobuf) in Perfect
 
 <p align="center">
     <a href="http://perfect.org/get-involved.html" target="_blank">
-        <img src="http://perfect.org/assets/github/perfect_github_2_0_0.jpg" alt="Get Involed with Perfect!" width="854" />
+        <img src="http://perfect.org/assets/github/perfect_github_2_0_0.jpg" alt="Get Involved with Perfect!" width="854" />
     </a>
 </p>
 
@@ -39,107 +39,93 @@
     </a>
 </p>
 
-Perfect Empty Starter Project
+This repository holds one simple project designed to show you how protocol buffers are created & sent, as well as received & decoded.  
 
-This repository holds a blank Perfect project which can be cloned to serve as a starter for new work. It builds with Swift Package Manager and produces a stand-alone HTTP executable.
+The objects in the API are separated by function:
+
+- ChatMessage is the model we are using, as well as our generated proto (More on that later)
+- Handlers contain the handlers used to send and receive the protobuffs
+- ProtoSender contains the method used to actually send the data to the /receive endpoint
+
 
 ## Compatibility with Swift
 
-The master branch of this project currently compiles with **Xcode 8.2** or the **Swift 3.0.2** toolchain on Ubuntu.
+The master branch of this project currently compiles with **Xcode 8.2/8.3 beta 2** or the **Swift 3.0.2/3.1** toolchains on Ubuntu. 
 
-## Building & Running
+## Testing
 
-The following will clone and build an empty starter project and launch the server on port 8080 and 8181.
+### IMPORTANT NOTES ABOUT XCODE
 
-```
-git clone https://github.com/PerfectlySoft/PerfectTemplate.git
-cd PerfectTemplate
-swift build
-.build/debug/PerfectTemplate
-```
+If you choose to generate an Xcode Project by running `swift package generate-xcodeproj`, you **MUST** change to the executable target **AND** setup a custom working directory wherever you cloned the project. 
 
-You should see the following output:
+**IF YOU ARE USING PERFECT ASSISTANT, DO NOT RUN INTEGRATION -- THIS WILL BREAK THE XCODE BUILD**
+
+![Proper Xcode Setup](https://raw.githubusercontent.com/PerfectExamples/Perfect-APNS-Demo/master/supporting/xcode.png)
+
+### Following the Routes
+
+First open [http://0.0.0.0:8181/](http://0.0.0.0:8181/) in your browser. 
+
+Enter some text into the title and body fields, then hit send. 
+
+The console output should look similar to:
 
 ```
 [INFO] Starting HTTP server localhost on 0.0.0.0:8181
-[INFO] Starting HTTP server localhost on 0.0.0.0:8080
+Serialized Proto into Data
+Sending Proto…
+Proto Received!
+Proto was received and converted into a message with: 
+title: Test 
+body of: Message
 ```
 
-This means the servers are running and waiting for connections. Access [http://localhost:8181/](http://127.0.0.1:8080/) to see the greeting. Hit control-c to terminate the server.
+To take a deeper look at what is going on in the app, set some breakpoints in the handlers. In general, `sendHandler` takes the POST variables from the webpage form, converts them into a protobuf-compatible model object, serializes that into `Data`, then passes that data to the `ProtoSender` struct to simulate sending the data to an API. From there, the data is sent to the /receive endpoint, and the `receiveHandler` takes the data in and converts it to a corresponding protobuf-compatible model object, which it then uses to print out text to the screen, thereby completing the chain of events that shows you how to create and send a protobuf, as well as receive and use one. 
 
-## Starter Content
+## Proto Setup for Your Own Projects
 
-The template file contains a simple "hello, world!" request handler and shows how to serve static files, compress outgoing content and start up more than one server at a time.
+**This is the procedure to generate your own models, just note that it has already been done in the sample project**
 
-```swift
-import PerfectLib
-import PerfectHTTP
-import PerfectHTTPServer
+### Creating a .proto File for Your Own Models
 
-// An example request handler.
-// This 'handler' function can be referenced directly in the configuration below.
-func handler(data: [String:Any]) throws -> RequestHandler {
-	return {
-		request, response in
-		// Respond with a simple message.
-		response.setHeader(.contentType, value: "text/html")
-		response.appendBody(string: "<html><title>Hello, world!</title><body>Hello, world!</body></html>")
-		// Ensure that response.completed() is called when your processing is done.
-		response.completed()
-	}
-}
+If you're going to use your own model, you will need to setup a proto file. An example is given to you in the main directory of the project, see "ChatMessage.proto". In general, it should look something like this:
 
-// Configuration data for two example servers.
-// This example configuration shows how to launch one or more servers 
-// using a configuration dictionary.
+```
+syntax = "proto3";
 
-let port1 = 8080, port2 = 8181
-
-let confData = [
-	"servers": [
-		// Configuration data for one server which:
-		//	* Serves the hello world message at <host>:<port>/
-		//	* Serves static files out of the "./webroot"
-		//		directory (which must be located in the current working directory).
-		//	* Performs content compression on outgoing data when appropriate.
-		[
-			"name":"localhost",
-			"port":port1,
-			"routes":[
-				["method":"get", "uri":"/", "handler":handler],
-				["method":"get", "uri":"/**", "handler":PerfectHTTPServer.HTTPHandler.staticFiles,
-				 "documentRoot":"./webroot",
-				 "allowResponseFilters":true]
-			],
-			"filters":[
-				[
-				"type":"response",
-				"priority":"high",
-				"name":PerfectHTTPServer.HTTPFilter.contentCompression,
-				]
-			]
-		],
-		// Configuration data for another server which:
-		//	* Redirects all traffic back to the first server.
-		[
-			"name":"localhost",
-			"port":port2,
-			"routes":[
-				["method":"get", "uri":"/**", "handler":PerfectHTTPServer.HTTPHandler.redirect,
-				 "base":"http://localhost:\(port1)"]
-			]
-		]
-	]
-]
-
-do {
-	// Launch the servers based on the configuration data.
-	try HTTPServer.launch(configurationData: confData)
-} catch {
-	fatalError("\(error)") // fatal error launching one of the servers
+message ChatMessage {
+    string title = 1;
+    string body = 2;
 }
 ```
 
+Learn more about the syntax & available options [here](https://developers.google.com/protocol-buffers/)
+
+### Generation of Swift Files
+
+First, you need to make sure you have protocol buffers installed, which is easy to do with homebrew: `brew install protobuf`
+
+Second, you need to clone & build Swift Provider:
+
+```
+git clone https://github.com/apple/swift-protobuf.git
+cd swift-protobuf
+swift build
+```
+
+Next, you need to copy the executable to a location in your path. This works, but feel free to put it where you like, just make sure it ends up in your shell $PATH:
+
+```
+sudo cp .build/debug/protoc-gen-swift /usr/local/bin
+```
+
+From there, restart your shell or open a new tab. Navigate to the directory your .proto files are in, and then run this command for each (just change ChatMessage.proto to your own model):
+
+```
+protoc --swift_out=./Sources/ ChatMessage.proto
+```
+
+The script will place .swift source files (like ChatMessage.pb.swift) into your source. If you have multiple targets, just adjust the file path above to put the models in the right place. 
 
 ## Issues
 
