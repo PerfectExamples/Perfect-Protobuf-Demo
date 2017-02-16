@@ -11,10 +11,13 @@ buildlinux
 Packages
 db/
 *.orig
-StORMlog.txt
+*.pins
 
 #Xcode
 *~.nib
+#*.xcodeproj
+#*.xcworkspace
+Backend/Perfect-APNS.xcodeproj
 DerivedData/
 build/
 build_lin/
@@ -33,3 +36,10 @@ profile
 *.moved-aside
 *.hmap
 *.ipa
+
+#Private Certificates
+*.p8
+*.key
+*.crt
+*.csr
+*.key.pub
