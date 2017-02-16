@@ -10,6 +10,7 @@ import PerfectLib
 import PerfectHTTP
 import PerfectHTTPServer
 import SwiftProtobuf
+import Foundation
 
 
 func sendHandler(data: [String:Any]) throws -> RequestHandler {
@@ -23,7 +24,6 @@ func sendHandler(data: [String:Any]) throws -> RequestHandler {
             var body: String? = nil
             
             for param in request.postParams {
-                dump(param)
                 if param.0 == "title" {
                     title = param.1
                 } else if param.0 == "message" {
@@ -62,7 +62,16 @@ func receiveHandler(data: [String:Any]) throws -> RequestHandler {
         
         print("Proto Received!")
         
+        if let bytes = request.postBodyBytes {
+            let data = Data(bytes: bytes)
         
+            do {
+                let message = try ChatMessage(protobuf: data)
+                print("Proto was received and converted into a message with: \ntitle: \(message.title) \nbody of: \(message.body)")
+            } catch {
+                print("Failed to Decode Proto")
+            }
+        }
         
         response.setHeader(.contentType, value: "text/html")
         response.appendBody(string: "<html><title>Hello, world!</title><body>Hello, world!</body></html>")
