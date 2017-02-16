@@ -74,7 +74,7 @@ func receiveHandler(data: [String:Any]) throws -> RequestHandler {
         }
         
         response.setHeader(.contentType, value: "text/html")
-        response.appendBody(string: "<html><title>Hello, world!</title><body>Hello, world!</body></html>")
+        response.appendBody(string: "<html><title>Hello, proto!</title><body>Hello, protocol buffers!</body></html>")
         // Ensure that response.completed() is called when your processing is done.
         response.completed()
     }
