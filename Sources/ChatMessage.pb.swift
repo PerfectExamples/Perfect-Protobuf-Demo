@@ -10,9 +10,9 @@ import Foundation
 import SwiftProtobuf
 
 
-struct Notification: SwiftProtobuf.Message, SwiftProtobuf.Proto3Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf.ProtoNameProviding {
-  public var swiftClassName: String {return "Notification"}
-  public var protoMessageName: String {return "Notification"}
+struct ChatMessage: SwiftProtobuf.Message, SwiftProtobuf.Proto3Message, SwiftProtobuf._MessageImplementationBase, SwiftProtobuf.ProtoNameProviding {
+  public var swiftClassName: String {return "ChatMessage"}
+  public var protoMessageName: String {return "ChatMessage"}
   public var protoPackageName: String {return ""}
   public static let _protobuf_fieldNames: FieldNameMap = [
     1: .same(proto: "title", swift: "title"),
@@ -43,7 +43,7 @@ struct Notification: SwiftProtobuf.Message, SwiftProtobuf.Proto3Message, SwiftPr
     }
   }
 
-  public func _protoc_generated_isEqualTo(other: Notification) -> Bool {
+  public func _protoc_generated_isEqualTo(other: ChatMessage) -> Bool {
     if title != other.title {return false}
     if body != other.body {return false}
     return true
